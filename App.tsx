@@ -7,30 +7,25 @@ const App = () => {
   return (
     <SafeAreaView style={{}}>
       <StatusBar barStyle={'dark-content'} />
-      <View style={{}}>
+      <View style={styles.container}>
         <Home />
       </View>
+   
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
+ 
+  container:{
+    flex:1,
+    margin:10,
+    alignItems:'center',
+    justifyContent:'center',
+    height:300,
+    width:300
+    
+  }
 });
 
 export default App;

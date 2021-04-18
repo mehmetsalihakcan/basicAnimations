@@ -35,7 +35,7 @@ const LoopAndIteration = () => {
     <View style={styles.container}>
       <TouchableWithoutFeedback onPress={animationHandle}>
         <Animated.Image
-          source={require('../../assets/images/plantImage.jpg')}
+          source={require('./images/plantImage.jpg')}
           style={[styles.box, animationStyles]}
         />
       </TouchableWithoutFeedback>
